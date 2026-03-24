@@ -4,7 +4,14 @@ public class Pessoas {
 	//atributos da classe >> caracteristicas
 	// privados // encapsulamento
 	private int idade;
-	private String nome;	
+	private String nome;
+	// construtores - vazio
+	public Pessoas() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
 	// getters e setters
 	public int getIdade() {
 		return idade;
