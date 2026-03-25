@@ -10,8 +10,14 @@ public class Pessoas {
 		// TODO Auto-generated constructor stub
 	}
 	
-	
-	
+	public Pessoas(int idade, String nome) {
+		super();
+		this.idade = idade;
+		this.nome = nome;
+	}
+
+
+
 	// getters e setters
 	public int getIdade() {
 		return idade;
